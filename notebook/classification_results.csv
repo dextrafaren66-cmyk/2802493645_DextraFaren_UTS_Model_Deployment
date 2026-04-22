@@ -1,4 +1,0 @@
-,Accuracy,Precision,Recall,F1-Score
-Logistic Regression,0.89,0.8781,0.89,0.8805
-Random Forest,0.894,0.8824,0.894,0.8782
-Gradient Boosting,0.887,0.8759,0.887,0.879

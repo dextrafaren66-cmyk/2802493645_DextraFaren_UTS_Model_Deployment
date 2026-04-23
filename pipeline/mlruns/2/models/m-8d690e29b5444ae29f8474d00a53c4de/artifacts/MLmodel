@@ -1,0 +1,23 @@
+artifact_path: file:C:/Users/Dextra Faren/Downloads/UTS_ModelDeployment/pipeline/mlruns/2/models/m-8d690e29b5444ae29f8474d00a53c4de/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.14.3
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.8.0
+    skops_trusted_types: null
+mlflow_version: 3.9.0
+model_id: m-8d690e29b5444ae29f8474d00a53c4de
+model_size_bytes: 7376890
+model_uuid: m-8d690e29b5444ae29f8474d00a53c4de
+prompts: null
+run_id: 3d6eb83e24a14b04bee5b421f54a798c
+utc_time_created: '2026-04-22 09:49:07.636081'

@@ -126,4 +126,4 @@ def train_classification(X_train, y_train):
 
 
 if __name__ == "__main__":
-    print("Use run_pipeline.py to execute the full pipeline.")
+    pass

@@ -39,7 +39,6 @@ st.sidebar.title("🎓 Student Predictor")
 st.sidebar.markdown("---")
 task = st.sidebar.selectbox("Select Task", ["Classification", "Regression", "Both"])
 st.sidebar.markdown("---")
-st.sidebar.info("Model: sklearn Pipeline (.pkl)\nDeployment: Streamlit Monolithic")
 
 # ========================================
 # MAIN HEADER
@@ -142,7 +141,4 @@ if st.button("🔮 Predict", type="primary", use_container_width=True):
             reg_pred = reg_pipeline.predict(input_data)
             salary = max(0, reg_pred[0])
             st.metric("Predicted Salary", f"₹{salary:.2f} LPA")
-
-    st.markdown("---")
-    st.subheader("📄 Input Data Summary")
-    st.dataframe(input_data.T.rename(columns={0: 'Value'}), use_container_width=True)
+            

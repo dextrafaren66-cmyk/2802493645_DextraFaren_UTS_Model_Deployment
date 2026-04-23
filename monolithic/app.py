@@ -35,7 +35,7 @@ cls_pipeline, reg_pipeline, label_encoder = load_models()
 # ========================================
 # SIDEBAR
 # ========================================
-st.sidebar.title("🎓 Student Predictor")
+st.sidebar.title(" 🎓 ")
 st.sidebar.markdown("---")
 task = st.sidebar.selectbox("Select Task", ["Classification", "Regression", "Both"])
 st.sidebar.markdown("---")

@@ -19,8 +19,7 @@ st.set_page_config(
 # ========================================
 # SIDEBAR
 # ========================================
-st.sidebar.title("🎓 Student Predictor")
-st.sidebar.markdown("**Decoupled (FastAPI + Streamlit)**")
+st.sidebar.title("Student Predictor")
 st.sidebar.markdown("---")
 task = st.sidebar.selectbox("Select Task", ["Classification", "Regression", "Both (Full)"])
 st.sidebar.markdown("---")
@@ -40,7 +39,7 @@ except requests.ConnectionError:
 # MAIN HEADER
 # ========================================
 st.title("🎓 Student Placement & Salary Prediction")
-st.markdown("**Decoupled Architecture:** Streamlit (Frontend) → FastAPI (Backend)")
+st.markdown("**Decoupled Architecture:** Streamlit (Frontend) + FastAPI (Backend)")
 st.markdown("---")
 
 # ========================================

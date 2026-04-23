@@ -44,7 +44,6 @@ st.sidebar.markdown("---")
 # MAIN HEADER
 # ========================================
 st.title("🎓 Student Placement & Salary Prediction")
-st.markdown("Predict placement status and expected salary based on student profile.")
 st.markdown("---")
 
 # ========================================

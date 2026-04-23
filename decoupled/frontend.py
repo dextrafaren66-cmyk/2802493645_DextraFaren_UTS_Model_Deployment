@@ -20,7 +20,7 @@ st.set_page_config(
 # SIDEBAR
 # ========================================
 st.sidebar.title("🎓 Student Predictor")
-st.sidebar.markdown("**Architecture:** Decoupled (FastAPI + Streamlit)")
+st.sidebar.markdown("**Decoupled (FastAPI + Streamlit)**")
 st.sidebar.markdown("---")
 task = st.sidebar.selectbox("Select Task", ["Classification", "Regression", "Both (Full)"])
 st.sidebar.markdown("---")
